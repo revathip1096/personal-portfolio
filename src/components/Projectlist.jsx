@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import todolist from "../Assets/images/todolist.jpg";
 import expensestracker from "../Assets/images/expensestracker.jpg";
 import calculator from "../Assets/images/calculator.jpg";
+import Truncate from 'react-truncate';
 
 import "../pages/style.css";
 
@@ -14,7 +15,6 @@ function Projectlist() {
         <Container>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             
-
 
             <Col md={4} className="project-card">
               <ProjectCard
@@ -41,7 +41,7 @@ function Projectlist() {
                 imgPath={calculator}
                 isBlog={false}
                 title="Calculator"
-                description=" The Calculator Web Application is a user-friendly, responsive, and feature-rich calculator that I designed and developed as part of my journey into web development. This project reflects my commitment to creating practical and intuitive solutions for everyday tasks."
+                description=" The Calculator Web Application is a user-friendly and feature-rich calculator that I designed and developed as part of my journey into web development."
                 ghLink="https://calculator-jade-phi.vercel.app/"
               />
             </Col>

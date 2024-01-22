@@ -8,7 +8,7 @@ const Cursor = () => {
     const updateMousePosition = (e) => {
       setMousePositions((prevPositions) => [
         { x: e.clientX, y: e.clientY },
-        ...prevPositions.slice(0, 10), // Keep only the last 10 positions
+        ...prevPositions.slice(0, 0), // Keep only the last 10 positions
       ]);
     };
 
@@ -32,7 +32,7 @@ const Cursor = () => {
     width: '16px',
     height: '16px',
     borderRadius: '50%',
-    backgroundColor: 'rgba(25, 25, 25, 0.5)',
+    backgroundColor: 'rgba(0, 0, 0, 1.0)',
     pointerEvents: 'none',
     zIndex: 9999,
   };
