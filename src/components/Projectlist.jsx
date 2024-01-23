@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import todolist from "../Assets/images/todolist.jpg";
 import expensestracker from "../Assets/images/expensestracker.jpg";
 import calculator from "../Assets/images/calculator.jpg";
-import Truncate from 'react-truncate';
+
 
 import "../pages/style.css";
 
